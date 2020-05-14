@@ -1,6 +1,6 @@
 package calc
 
-// fixed
+// fixed loop calc
 func Add(numbers ...int) int {
 	sum := 0
 	for num := range numbers {
