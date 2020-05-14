@@ -1,9 +1,9 @@
 package calc
 
-// fixed loop calc
+// fixed retieve value instead of index
 func Add(numbers ...int) int {
 	sum := 0
-	for num := range numbers {
+	for _, num := range numbers {
 		sum += num
 	}
 	return sum
